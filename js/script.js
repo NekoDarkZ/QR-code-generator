@@ -6,7 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
     // Verificar si estamos en la página index.html
     if (currentPath === '/index.html' || currentPath === '/') {
       // Esta lógica se ejecuta en la página index.html
-      document.getElementById('generateQR').addEventListener('click', function () {
+      document.getElementById('generateForm').addEventListener('submit', function (e) {
+        e.preventDefault();
         var url = document.getElementById('urlInput').value;
         if (url.trim() !== '') {
           // Redirigir a qrpage.html con el parámetro URL
