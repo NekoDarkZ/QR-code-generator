@@ -79,7 +79,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,7 +106,7 @@ Project Link: [https://github.com/NekoDarkZ/QA-code-generator](https://github.co
 [issues-shield]: https://img.shields.io/github/issues/NekoDarkZ/QA-code-generator.svg?style=for-the-badge
 [issues-url]: https://github.com/NekoDarkZ/QA-code-generator/issues
 [license-shield]: https://img.shields.io/github/license/NekoDarkZ/QA-code-generator.svg?style=for-the-badge
-[license-url]: https://github.com/NekoDarkZ/QA-code-generator/blob/master/LICENSE.txt
+[license-url]: https://github.com/NekoDarkZ/QA-code-generator/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/samurquio
 [product-screenshot]: images/screenshot.png
