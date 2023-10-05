@@ -4,7 +4,7 @@ const BASE_PATH = '/QA-code-generator';
 document.addEventListener('DOMContentLoaded', function () {
     const currentPath = window.location.pathname.replace(BASE_PATH, '');
     // Verificar si estamos en la página index.html
-    if (currentPath === '/QA-code-generator/index.html' || currentPath === '/') {
+    if (currentPath === '/index.html' || currentPath === '/') {
       // Esta lógica se ejecuta en la página index.html
       document.getElementById('generateQR').addEventListener('click', function () {
         var url = document.getElementById('urlInput').value;
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
           window.location.href = 'qrpage.html?url=' + encodeURIComponent(url);
         }
       });
-    } else if (currentPath === '/QA-code-generator/qrpage.html') {
+    } else if (currentPath === '/qrpage.html') {
       // Esta lógica se ejecuta en la página qrpage.html
       // Obtener la URL pasada como parámetro en la URL actual
       var url = obtenerURL();
