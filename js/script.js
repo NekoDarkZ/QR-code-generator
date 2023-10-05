@@ -1,7 +1,7 @@
 // script.js
 document.addEventListener('DOMContentLoaded', function () {
     // Verificar si estamos en la página index.html
-    if (window.location.pathname === '/index.html') {
+    if (window.location.pathname === '/QA-code-generator/index.html') {
       // Esta lógica se ejecuta en la página index.html
       document.getElementById('generateQR').addEventListener('click', function () {
         var url = document.getElementById('urlInput').value;
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
           window.location.href = 'qrpage.html?url=' + encodeURIComponent(url);
         }
       });
-    } else if (window.location.pathname === '/qrpage.html') {
+    } else if (window.location.pathname === '/QA-code-generator/qrpage.html') {
       // Esta lógica se ejecuta en la página qrpage.html
       // Obtener la URL pasada como parámetro en la URL actual
       var url = obtenerURL();
