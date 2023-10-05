@@ -177,10 +177,18 @@ a img {
         flex-direction: row;
     }
 
-    footer {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 1rem;
+    /* Center the header */
+    header {
+        justify-content: center;
+    }
+
+    /* use display flex and row  */
+    .generate-input {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
     }
 
   }
