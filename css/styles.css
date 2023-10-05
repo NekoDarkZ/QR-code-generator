@@ -37,8 +37,10 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
-
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
 }
 
 main {
@@ -72,6 +74,9 @@ main {
     font-weight: 500;
     margin: auto;
     padding-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 }
 
 .generate-input {
@@ -88,13 +93,14 @@ main {
 }
 
 .url {
-    color: #364153;
+    color: #94a3b8;
     background-color: #111729;
     padding: 0.5rem;
     border-radius: 8px;
     font-size: 0.875rem;
     font-weight: 200;
     border: 0.5px solid transparent;
+    width: 75%;
 }
 
 .generate-button {
@@ -123,6 +129,7 @@ a {
     display: flex;
     flex-direction: row;
     padding-left: 0.5rem;
+    text-align: center;
 }
 
 a img {
@@ -164,7 +171,7 @@ a img {
     border: 0.5px solid transparent;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (max-width: 720px) {
     .logo {
         display: initial;
     }
@@ -183,12 +190,32 @@ a img {
     }
 
     /* use display flex and row  */
-    .generate-input {
+    #generate-form {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        width: 100%;
+        row-gap: 0.5rem;
+        column-gap: 1.5rem;
     }
 
-  }
+    #generateForm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 0.5rem;
+        column-gap: 1.5rem;
+    }
+
+    .url {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .generate-button {
+        width: 100%;
+        justify-content: center;
+    }
+}
