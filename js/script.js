@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', function () {
       // Mostrar el código QR con la URL obtenida
       var qrcode = new QRCode(document.getElementById('qrcode'), {
         text: url,
-        width: 256,
-        height: 256,
-        colorDark: "#000000",
-        colorLight: "#ffffff",
+        width: 200,
+        height: 200,
+        colorDark: "#111729",
+        colorLight: "#F2F5F9",
         correctLevel: QRCode.CorrectLevel.H,
         border: 4,
       });

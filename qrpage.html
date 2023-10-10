@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit" />
     <title>QR Code Viewer</title>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" sizes="any">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
@@ -11,19 +12,31 @@
 <body>
     <header>
         <a href="index.html">
-            <img src="images/devchallenges-logo.svg" alt="A beautiful landscape">
-            <h3 class="qr-title">QRCODE GENERATOR</h3>
+            <img src="images/logo-qr-generator.svg" alt="A beautiful landscape">
         </a>
     </header>
 
     <main>
+        <div class="bg">
+            <img src="/images/bg-illustration.svg" alt="bg">
+        </div>
         <div class="content">
-            <div class="qrcode-div">
+            <div id="qrcode-div">
                 <div id="qrcode"></div>
             </div>
             <div class="buttons">
-                <button id="downloadQR" class="download-button">Descargar</button>
-                <button id="shareQR" class="share-button">Compartir</button>
+                <div>
+                    <button id="downloadQR" class="download-button">
+                        Download
+                        <img src="images/download.svg" alt="download">
+                    </button>
+                </div>
+                <div>
+                    <button id="shareQR" class="share-button">
+                        Share
+                        <img src="images/clip.svg" alt="share">
+                    </button>
+                </div>
             </div>
             </div>
         </div>
