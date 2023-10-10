@@ -31,13 +31,12 @@
 <br />
 <div align="center">
   <a href="https://github.com/NekoDarkZ/QA-code-generator/">
-    <img src="images/logo.png" alt="Logo" width="256" height="256">
   </a>
 
-<h3 align="center">QA CODE GENERATOR</h3>
+<h3 align="center">QR CODE GENERATOR</h3>
 
   <p align="center">
-    Simple QA Code generator using html, css and js.
+    Simple QR Code generator using html, css and js.
     <br />
     <br />
     <a href="https://nekodarkz.github.io/QA-code-generator">View Demo</a>
@@ -51,10 +50,10 @@
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-- [ ] Enter the QA generator online at: https://nekodarkz.github.io/QA-code-generator
+- [ ] Enter the QR generator online at: https://nekodarkz.github.io/QA-code-generator
 - [ ] Enter a link.
 - [ ] Click on "Generate".
-- [ ] And you get the QA Code.
+- [ ] You can Download or Share the QR.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
